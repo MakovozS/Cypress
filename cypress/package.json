@@ -1,5 +1,6 @@
 {
     "name": "my-cypress-project",
+    "author": "SMakovos",
     "version": "1.0.0",
     "scripts": {
         "test:qauto": "cypress run --config-file ./cypress/cypress.config.qauto.js",

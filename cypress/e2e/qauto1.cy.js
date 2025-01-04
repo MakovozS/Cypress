@@ -1,4 +1,3 @@
-// cypress/e2e/qauto1.cy.js
 
 import AddCarPage from '../pages/AddCarPage';
 import RegistrationPage from '../pages/RegistrationPage';
