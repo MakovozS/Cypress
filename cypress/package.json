@@ -1,0 +1,13 @@
+{
+    "name": "my-cypress-project",
+    "version": "1.0.0",
+    "scripts": {
+        "test:qauto": "cypress run --config-file ./cypress/cypress.config.qauto.js",
+        "test:qauto2": "cypress run --config-file ./cypress/cypress.config.qauto2.js",
+        "generate-report": "npx mochawesome-merge cypress/reports/*.json | npx mochawesome-report-generator --inline"
+    },
+    "devDependencies": {
+        "cypress": "^12.17.4",
+        "mochawesome": "^6.3.1"
+    }
+}
