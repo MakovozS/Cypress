@@ -1,0 +1,9 @@
+
+node_modules/
+reports/
+*.log
+package-lock.json
+package.json
+cypress.config.js
+cypress.config.qauto.js
+cypress/cypress/fixtures/example.json
